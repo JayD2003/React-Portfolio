@@ -8,10 +8,9 @@
     /*colors*/
     --color-text: #fff;
     --color-title: #efd033;
-    --color-primary: #576cbc;
-    --color-secondary: #19376d;
-    --color-dark: #f5f5dc;
+    --color-wood: #f5f5dc;
     --color-bg: black;
+    --color-highlight: #E4FA0A;
 
     --font-playfair: "Playfair Display", serif;
     --font-poppins: "Poppins", sans-serif;

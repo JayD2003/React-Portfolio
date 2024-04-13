@@ -10,7 +10,7 @@ const Example = ({args_if_necessary}) => {
 
   useEffect(() => {
     const typed = new Typed(typeTarget.current, {
-      strings: ["Web Developer.", "Coder.", "Gamer.", "Tech Geek."],
+      strings: ["Student.","Web Developer.", "Coder.", "Gamer.", "Tech Geek."],
         startDelay: 30,
         typeSpeed: 100,
         backSpeed: 100,
@@ -36,7 +36,7 @@ const Hero = () => {
                 <h2>and </h2>
                 <h2>I am a <Example args_if_necessary={"something"} /></h2>
             </div>
-            <img className={styles.HeroImg} src={getImageUrl("hero/dp.jpeg")} alt="" />
+            <img className={styles.HeroImg} src={getImageUrl("hero/heroImg.jpeg")} alt="" />
       </section>
   )
 }
