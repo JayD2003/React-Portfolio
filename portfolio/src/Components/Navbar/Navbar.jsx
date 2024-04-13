@@ -42,7 +42,7 @@ const Navbar = () => {
                     }
                     alt="menu-button"
                     onClick={()=> setMenuOpen(!menuOpen)}
-            />
+            /> 
         </nav>
     )
 }

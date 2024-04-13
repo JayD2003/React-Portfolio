@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 10px 15px 10px;
+    padding: 10px 10px 10px 10px;
     z-index: 2;
     margin: 0 10%;
 }
@@ -86,7 +86,7 @@
 
 .menuItems a:hover::after{
     transform: scaleX(1);
-  transform-origin: bottom left;
+    transform-origin: bottom left;
 }
 
 @media  screen and (max-width: 830px) {
