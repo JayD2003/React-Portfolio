@@ -1,0 +1,35 @@
+@import '../../../vars.css';
+
+.container{
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+}
+
+.subheading{
+    font-size: 20px;
+    font-family: var(--font-mont);
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dates{
+    display: flex;
+    font-size: 15px;
+    font-family: var(--font-mont);
+}
+
+.marks{
+    font-size: 20px;
+    font-family: var(--font-poppins);
+}

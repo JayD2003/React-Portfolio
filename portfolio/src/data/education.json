@@ -1,0 +1,22 @@
+[
+    {
+        "course": "B.E in Computer Science and Engineering",
+        "name": "R.M.K Engineering College, Thiruvallur",
+        "startDate": "2021",
+        "endDate": "Present",
+        "marks": "(CGPA - 8.7)"
+    },
+    {
+        "course": "HSC",
+        "name": "Sri Chaitanya Boys Jr College, Vijayawada",
+        "startDate": "2019",
+        "endDate": "2021",
+        "marks": "(GPA - 9.56)"
+    },
+    {
+        "course": "SSC",
+        "name": "Kairali EM High School, Nellore",
+        "endDate": "April, 2019",
+        "marks": "(GPA - 9.8)"
+    }
+]
