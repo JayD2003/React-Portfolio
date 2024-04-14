@@ -1,0 +1,18 @@
+
+.container{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 100px;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    color: var(--color-title);
+    font-family: var(--font-playfair);
+    font-size: 50px;
+}
