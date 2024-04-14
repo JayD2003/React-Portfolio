@@ -8,8 +8,9 @@ import education from '../../data/education.json';
 const About = () => {
   return (
       <section  className={styles.container} id="about">
-          <h2 className={styles.title}>About</h2>
+          <h2 className={styles.title}>About Me</h2>
           <div className={styles.content}>
+          <img className={styles.aboutImg} src={getImageUrl("About/dp.jpeg")} alt="" />
               <div className={styles.aboutDesc}>
                   <h3>Hey 👋, I'm Jayasai.</h3>
                   <p>I'm a passionate student currently in my third year pursuing a degree in Computer Science and Engineering.
@@ -42,7 +43,6 @@ const About = () => {
                         </TabPanel>
                     </Tabs>
               </div>
-              <img className={styles.aboutImg} src={getImageUrl("About/dp.jpeg")} alt="" />
           </div>
     </section>
   )

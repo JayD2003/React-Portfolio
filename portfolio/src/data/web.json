@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Confident",
+        "names": [
+        {
+            "name": "HTML",
+            "Imgsrc": "skills/Web/HTML.png"
+        },
+        {
+            "name": "CSS",
+            "Imgsrc": "skills/Web/CSS.png"
+        },
+        {
+            "name": "Javascript",
+            "Imgsrc": "skills/Web/Javascript.png"
+        }
+        ]
+    },
+    {
+        "title": "Familiar",
+        "names": [
+            {
+                "name": "React",
+                "Imgsrc" : "skills/Web/React.png"
+            },
+            {
+                "name": "Bootstrap",
+                "Imgsrc": "skills/Web/Bootstrap.png"
+            }
+        ]
+    }
+]

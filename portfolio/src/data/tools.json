@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Tools",
+        "names": [
+        {
+            "name": "Git",
+            "Imgsrc": "skills/Tools/Git.png"
+        },
+        {
+            "name": "Blender",
+            "Imgsrc": "skills/Tools/Blender.png"
+        }
+        ]
+    },
+    {
+        "title": "Libraries",
+        "names": [
+            {
+                "name": "Pygame",
+                "Imgsrc": "skills/Tools/Pygame.png"
+            }
+        ]
+    }
+]

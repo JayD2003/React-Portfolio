@@ -18,6 +18,7 @@
     font-weight: 600;
     font-family: var(--font-playfair);
     letter-spacing: 1.75px;
+    text-decoration: none;
 }
 
 .menuBtn{

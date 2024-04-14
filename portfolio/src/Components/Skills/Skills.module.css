@@ -1,17 +1,69 @@
 @import '../../vars.css';
 
 .container{
-    margin-top: 70px;
+    margin-top: 50px;
     position: relative;
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 100px;
     color: var(--color-text);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .title{
-    text-align: center;
     color: var(--color-title);
     font-family: var(--font-playfair);
     font-size: 50px;
+}
+
+.tabs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.skills a{
+    font-size: 45px;
+    font-family: var(--font-mont);
+    color: var(--color-wood);
+    text-decoration: none;
+    position: relative;
+}
+
+.skills a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-highlight);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.skills a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+@media  screen and (max-width: 830px) {
+    .tabs{
+    flex-direction: row;
+    }
+
+    .skills{
+        flex-direction: column;
+    }
 }

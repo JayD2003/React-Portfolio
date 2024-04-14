@@ -1,0 +1,40 @@
+@import "./../../vars.css";
+
+.container{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.namescontain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 5%;
+}
+
+.content{
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.img{
+    width: 20vh;
+}
+
+.title{
+    color: var(--color-highlight);
+    font-size: 35px;
+    font-family: var(--font-open);
+}
+
+.content h2{
+    font-family: var(--font-poppins);
+    font-size: 28px;
+}

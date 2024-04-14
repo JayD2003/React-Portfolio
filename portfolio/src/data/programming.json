@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Confident",
+        "names": [
+        {
+            "name": "Java",
+            "Imgsrc": "skills/Programming/Java.png"
+        },
+        {
+            "name": "Python",
+            "Imgsrc": "skills/Programming/Python.png"
+        },
+        {
+            "name": "C",
+            "Imgsrc": "skills/Programming/C.png"
+        }
+        ]
+    },
+    {
+        "title": "Familiar",
+        "names": [
+            {
+                "name": "Cpp",
+                "Imgsrc" : "skills/Programming/C++.png"
+            }
+        ]
+    }
+]
