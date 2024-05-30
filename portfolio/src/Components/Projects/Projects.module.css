@@ -15,4 +15,15 @@
     color: var(--color-title);
     font-family: var(--font-playfair);
     font-size: 50px;
+    margin-bottom: 20px;
 }
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './SkillCard.module.css';
-import { getImageUrl } from '../../utils';
+import { getImageUrl } from '../../../utils';
 
 const SkillCard = ({skill : {title, names}}) => {
   return (

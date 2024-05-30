@@ -56,6 +56,9 @@
     transform-origin: bottom left;
 }
 
+.skilllist{
+    margin-left: 17vh;
+}
 
 @media  screen and (max-width: 830px) {
     .tabs{

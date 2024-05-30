@@ -10,7 +10,7 @@ const Example = ({args_if_necessary}) => {
 
   useEffect(() => {
     const typed = new Typed(typeTarget.current, {
-      strings: ["Student.","Web Developer.", "Coder.", "Gamer.", "Tech Geek.", "Cool guy"],
+      strings: ["Student.","Web Developer.", "Coder.", "Gamer.", "Tech Geek."],
         startDelay: 30,
         typeSpeed: 100,
         backSpeed: 100,

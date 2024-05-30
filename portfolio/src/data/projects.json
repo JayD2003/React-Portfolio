@@ -1,0 +1,47 @@
+[
+    {
+        "title": "My V1 Portfolio",
+        "src": "project/portfolio.png",
+        "techstack": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "Javascript"
+            }
+        ]
+    },
+    {
+        "title": "My V1 Portfolio",
+        "src": "project/portfolio.png",
+        "techstack": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "Javascript"
+            }
+        ]
+    },
+    {
+        "title": "My V1 Portfolio",
+        "src": "project/portfolio.png",
+        "techstack": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "Javascript"
+            }
+        ]
+    }
+]

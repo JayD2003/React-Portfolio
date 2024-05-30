@@ -5,7 +5,7 @@ import web from '../../data/web.json';
 import prog from '../../data/programming.json';
 import too from '../../data/tools.json';
 import { getImageUrl } from '../../utils';
-import SkillCard from './SkillCard';
+import SkillCard from './SkillCard/SkillCard';
 
 const Skills = () => {
   return (
@@ -18,7 +18,7 @@ const Skills = () => {
                 <Tab><a>Web Development</a></Tab>
                 <Tab><a>Others</a></Tab>
               </TabList>
-          <TabPanel>
+          <TabPanel className={styles.skilllist}>
           {
                   prog.map((skill, id) => {
                     return (
@@ -27,7 +27,7 @@ const Skills = () => {
                   })
               }
               </TabPanel>
-          <TabPanel>
+          <TabPanel className={styles.skilllist}>
           {
                   web.map((skill, id) => {
                     return (
@@ -36,7 +36,7 @@ const Skills = () => {
                   })
               }
               </TabPanel>
-          <TabPanel>
+          <TabPanel className={styles.skilllist}>
           {
                   too.map((skill, id) => {
                     return (

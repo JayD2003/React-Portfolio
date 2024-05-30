@@ -1,0 +1,43 @@
+@import "../../../vars.css";
+
+.wrapper{
+    color: white;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    background-color:linear-gradient( 
+      rgb(0 0 0 / 45%), 
+      rgb(0 0 0 / 45%))
+      fill 1 ;
+    &:hover{
+        .content{
+            position: absolute;
+            text-align: left;
+            display: block;
+        }
+    }
+   
+}
+
+.wrapper img{
+    border-radius: 25px;
+   
+}
+
+.content{
+    display: none;
+}
+
+.projecttitle{
+    font-family: var(--font-mont);
+
+}
+
+.projectinfo{
+    font-family: var(--font-poppins);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+}
