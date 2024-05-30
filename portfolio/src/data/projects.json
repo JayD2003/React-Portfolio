@@ -1,16 +1,13 @@
 [
     {
-        "title": "My V1 Portfolio",
-        "src": "project/portfolio.png",
+        "title": "Space Invaders Game",
+        "src": "project/invaders.png",
         "techstack": [
             {
-                "name": "HTML"
+                "name": "Python"
             },
             {
-                "name": "CSS"
-            },
-            {
-                "name": "Javascript"
+                "name": "Pygame Library"
             }
         ]
     },
@@ -30,8 +27,35 @@
         ]
     },
     {
-        "title": "My V1 Portfolio",
-        "src": "project/portfolio.png",
+        "title": "Lane Detection",
+        "src": "project/lane.png",
+        "techstack": [
+            {
+                "name": "Python"
+            },
+            {
+                "name": "OpenCV Library"
+            }
+        ]
+    },
+    {
+        "title": "Tic Tac Toe AI Game",
+        "src": "project/tictactoe.png",
+        "techstack": [
+            {
+                "name": "HTML"
+            },
+            {
+                "name": "CSS"
+            },
+            {
+                "name": "Javascript"
+            }
+        ]
+    },
+    {
+        "title": "Tic Tac Toe AI Game",
+        "src": "project/rockpaperscissor.png",
         "techstack": [
             {
                 "name": "HTML"
