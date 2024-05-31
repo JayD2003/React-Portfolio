@@ -1,0 +1,72 @@
+[
+    {
+        "title": "Languages",
+        "names": [
+        {
+            "name": "Java",
+            "exp": "Confident"
+        },
+        {
+            "name": "Python",
+            "exp": "Confident"
+        },
+        {
+            "name": "C",
+            "exp": "Confident"
+        },
+        {
+            "name": "Cpp",
+            "exp" : "Familiar"
+        }
+        ],
+        "libraries":[
+            {
+                "name": "Pygame",
+                "exp" : "Familiar"
+            }
+        ]
+    },
+    {
+        "title": "Web Development",
+        "names": [
+        {
+            "name": "HTML",
+            "exp": "Familiar"
+        },
+        {
+            "name": "CSS",
+            "exp": "Familiar"
+        },
+        {
+            "name": "Javascript",
+            "exp": "Familiar"
+        }
+        ],
+        "libraries":[
+            {
+                "name": "React",
+                "exp" : "Familiar"
+            },
+            {
+                "name": "Bootstrap",
+                "exp": "Familiar"
+            }
+        ]
+    },
+    {
+        "title": "Tools",
+        "names": [
+        {
+            "name": "Git",
+            "exp": "Familiar"
+        },
+        {
+            "name": "Blender",
+            "exp": "Familiar"
+        }
+        ],
+        "libraries":[
+            
+        ]
+    }
+]

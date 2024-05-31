@@ -1,51 +1,48 @@
 import React from 'react';
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import styles from './Skills.module.css';
-import web from '../../data/web.json';
-import prog from '../../data/programming.json';
-import too from '../../data/tools.json';
+import skills from '../../data/skills.json';
 import { getImageUrl } from '../../utils';
 import SkillCard from './SkillCard/SkillCard';
 
+
+import gsap from "gsap";
+import { useRef, useEffect } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
 const Skills = () => {
+
+  const titlename = useRef(null);
+  useEffect(()=>{
+    const title = titlename.current;
+    gsap.fromTo(
+      title,
+      { opacity: 0},
+      {
+          opacity: 1,
+          duration: 3,
+          scrollTrigger: {
+              trigger: title,
+          },
+      }
+    );
+  })
+
   return (
     <section  className={styles.container} id="skills">
-          <h2 className={styles.title}>My Skills</h2>
+          <h2 className={styles.title} ref={titlename}>My Skills</h2>
           <div className={styles.content}>
-          <Tabs className={styles.tabs}>
-              <TabList className={styles.skills}>
-                <Tab><a>Programming</a></Tab>
-                <Tab><a>Web Development</a></Tab>
-                <Tab><a>Others</a></Tab>
-              </TabList>
-          <TabPanel className={styles.skilllist}>
-          {
-                  prog.map((skill, id) => {
-                    return (
-                      <SkillCard key={id} skill={skill} />
-                        );
-                  })
-              }
-              </TabPanel>
-          <TabPanel className={styles.skilllist}>
-          {
-                  web.map((skill, id) => {
-                    return (
-                      <SkillCard key={id} skill={skill} />
-                        );
-                  })
-              }
-              </TabPanel>
-          <TabPanel className={styles.skilllist}>
-          {
-                  too.map((skill, id) => {
-                    return (
-                      <SkillCard key={id} skill={skill} />
-                        );
-                  })
-              }
-              </TabPanel>
-          </Tabs>
+          <div className={styles.skills}>
+            <div className={styles.skilllist}>
+            {
+                    skills.map((skill, id) => {
+                      return (
+                        <SkillCard key={id} skill={skill} />
+                          );
+                    })
+                }
+                </div>
+          </div>
         </div>
     </section>
   )

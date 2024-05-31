@@ -3,8 +3,8 @@
 .container{
     margin-top: 50px;
     position: relative;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     color: var(--color-text);
     display: flex;
     align-items: center;
@@ -17,60 +17,16 @@
     font-size: 50px;
 }
 
-.tabs{
+.skilllist{
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
-}
-
-.skills{
-    display: flex;
     flex-direction: row;
-    gap: 30px;
-    list-style: none;
-}
-
-.skills a{
-    font-size: 45px;
-    font-family: var(--font-mont);
-    color: var(--color-wood);
-    text-decoration: none;
-    position: relative;
-}
-
-.skills a::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--color-highlight);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.skills a:hover::after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-.skilllist{
-    margin-left: 17vh;
 }
 
 @media  screen and (max-width: 830px) {
-    .tabs{
-        flex-direction: row;
-    }
 
-    .skills{
+    .skilllist{
         flex-direction: column;
     }
 
-    .skills a{
-        font-size: 28px;
-        margin-right: 30px;
-    }
 }

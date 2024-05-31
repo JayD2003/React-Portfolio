@@ -2,13 +2,37 @@ import React,{useState} from 'react';
 import styles from './Navbar.module.css';
 import { getImageUrl } from './../../utils';
 
+
+import gsap from "gsap";
+import { useRef, useEffect } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
+
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [darkMode, setDarkMode] = useState(true);
 
+    const bar = useRef(null);
+    useEffect(()=>{
+        const b = bar.current;
+        gsap.fromTo(
+            b,
+            {
+                opacity: 0,
+                translateY: -50
+            },
+            {
+                opacity: 1,
+                translateY: 0,
+                duration: 1
+            }
+        )
+    })
+
     return (
-        <nav className={styles.navbar}>
-            <a className={styles.title } href="/">Jay.</a>
+        <nav className={styles.navbar} ref={bar} >
+            <a className={styles.title} href="/">Jay.</a>
             
             <div className={styles.menu}>
                 <img className={styles.menuBtn}

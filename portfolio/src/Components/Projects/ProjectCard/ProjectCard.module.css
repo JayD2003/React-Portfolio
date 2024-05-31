@@ -11,6 +11,17 @@
     border-radius: 25px;
 }
 
+@keyframes scale-up-hor-left{
+    0% {
+      transform: scaleX(0.4);
+      transform-origin: -50% -50%;
+    }
+    100% {
+      transform: scaleX(1);
+      transform-origin: 0% 0%;
+    }
+}
+
 .wrapper img{
     width: 350px;
     height: 200px;

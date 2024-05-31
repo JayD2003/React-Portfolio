@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "title": "Space Invaders Game",
         "src": "project/invaders.png",
         "techstack": [
@@ -12,6 +13,7 @@
         ]
     },
     {
+        "id": 1,
         "title": "My V1 Portfolio",
         "src": "project/portfolio.png",
         "techstack": [
@@ -27,6 +29,7 @@
         ]
     },
     {
+        "id": 2,
         "title": "Lane Detection",
         "src": "project/lane.png",
         "techstack": [
@@ -39,6 +42,7 @@
         ]
     },
     {
+        "id": 3,
         "title": "Tic Tac Toe AI Game",
         "src": "project/tictactoe.png",
         "techstack": [
@@ -54,6 +58,7 @@
         ]
     },
     {
+        "id": 4,
         "title": "Tic Tac Toe AI Game",
         "src": "project/rockpaperscissor.png",
         "techstack": [
