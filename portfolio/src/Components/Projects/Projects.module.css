@@ -16,6 +16,7 @@
     color: var(--color-title);
     font-family: var(--font-playfair);
     font-size: 50px;
+    margin-bottom: 30px;
 }
 
 .wrapper{
@@ -25,7 +26,6 @@
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 30px;
-
 }
 
 

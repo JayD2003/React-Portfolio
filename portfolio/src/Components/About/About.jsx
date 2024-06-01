@@ -66,8 +66,8 @@ const About = () => {
                             </h4>
                             <h5>Check Out My CV</h5>
                             <button>
-                                Download Now
-                              </button>
+                              <a href="https://drive.google.com/file/d/1XhEA70eXfg7kevLCDWdX8P4esPS_30N1/view?usp=sharing">Download Now</a> 
+                            </button>
                               </li>
                               </ul>
                         </TabPanel>

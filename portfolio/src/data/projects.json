@@ -59,7 +59,7 @@
     },
     {
         "id": 4,
-        "title": "Tic Tac Toe AI Game",
+        "title": "Rock Paper Scissor",
         "src": "project/rockpaperscissor.png",
         "techstack": [
             {

@@ -95,6 +95,10 @@
     background-color: var(--color-wood);
 }
 
+.exp a{
+    text-decoration: none;
+    color: black;
+}
 
 .edu{
     margin-top: 10px;

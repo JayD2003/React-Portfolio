@@ -1,0 +1,88 @@
+@import url("../../vars.css");
+
+.wrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.copyright{
+    font-size: 15px;
+    font-family: var(--font-mont);
+    margin-bottom: 15px;
+    display: none;
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title{
+    text-align: center;
+    color: var(--color-title);
+    font-family: var(--font-playfair);
+    font-size: 25px;
+}
+
+
+.right ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-family: var(--font-poppins);
+}
+
+.right ul li a{
+    display: inline-block;
+    position: relative;
+    font-size: 21px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+
+.right ul li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+right ul li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        margin-top: 0px;
+    }
+
+    .right ul li{
+        display: block;
+    }
+
+    .right ul li a{
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+    }
+
+    .left{
+        font-size: 5px;
+    }
+}

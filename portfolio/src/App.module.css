@@ -4,14 +4,42 @@
     background-color: var(--color-bg);
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .rocket{
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    margin-bottom: 38px;
+    margin-right: 11px;
     width: 60px;
 }
 
+.social{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 40vh;
+    margin-left: 27px;
+}
+
+.social li img{
+    width: 35px;
+    margin-bottom: 20px;
+}
+
+.social li img:hover{
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+}
+
+@media screen and (max-width: 830px) {
+    .rocket{
+        margin-right: -2px;
+    }
+
+    .social{
+        margin-left: 10px;
+    }
+}
