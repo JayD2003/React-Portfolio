@@ -25,7 +25,7 @@ const Navbar = () => {
             {
                 opacity: 1,
                 translateY: 0,
-                duration: 2
+                duration: 1,
             }
         )
     })

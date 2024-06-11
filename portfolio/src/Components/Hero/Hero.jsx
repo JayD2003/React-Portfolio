@@ -34,7 +34,7 @@ const Hero = () => {
                   <h2 className={styles.hi}> <span>.... ..</span> <span>Hi</span></h2>
                   <h2>My Name is <span className={styles.title}>Jay.</span> </h2>
                   <h2><span className={styles.and}>and</span></h2>
-                  <h2>I am a <Example /></h2>
+                  <h2 className={styles.typing}>I am a <Example /></h2>
               </div>
               <img className={styles.HeroImg} src={getImageUrl("hero/heroImg.jpeg")} alt="" />
           </div>

@@ -57,8 +57,8 @@ const App = () => {
     <div className={styles.App}>
       <div ref={soc}>
         <ul className={styles.social}>
-          <li ><a href="https://leetcode.com/u/jaydodla/" target="_blank"> <img src={getImageUrl("App/insta.png")} alt="" /></a></li>
-          <li ><a href="https://www.instagram.com/_mr__ingenious_/" target="_blank">  <img src={getImageUrl("App/leetcode.png")} alt="" /></a></li>
+          <li ><a href="https://www.instagram.com/_mr__ingenious_/" target="_blank"> <img src={getImageUrl("App/insta.png")} alt="" /></a></li>
+          <li ><a href="https://leetcode.com/u/jaydodla/" target="_blank">  <img src={getImageUrl("App/leetcode.png")} alt="" /></a></li>
           <li ></li>
         </ul>
       </div>

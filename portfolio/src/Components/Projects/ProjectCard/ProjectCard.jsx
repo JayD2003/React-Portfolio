@@ -15,10 +15,13 @@ const ProjectCard = ({project: {id, title, techstack,src}}) => {
     gsap.fromTo(
       el,
       { translateX: -100,
+        opacity: 0,
        },
       {
+        opacity: 1,
         translateX: 0,
-        duration: 3,
+        duration: 2,
+        delay: 0.5*id,
         stagger:1,
         scrollTrigger: {
           trigger: el,

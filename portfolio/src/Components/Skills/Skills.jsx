@@ -37,7 +37,7 @@ const Skills = () => {
             {
                     skills.map((skill, id) => {
                       return (
-                        <SkillCard key={id} skill={skill} />
+                        <SkillCard key={id} skill={skill} index={id+1}/>
                           );
                     })
                 }
