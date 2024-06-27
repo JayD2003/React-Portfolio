@@ -86,18 +86,9 @@
     font-family: var(--font-mont);
 }
 
-.exp button{
-    margin-top: 15px;
-    font-size: 20px;
-    border-radius: 20px;
-    padding: 5px 10px;
-    font-family: var(--font-mont);
-    background-color: var(--color-wood);
-}
-
 .exp a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .edu{
@@ -111,6 +102,37 @@
     height: 550px;
     border-radius: 45px;
 }
+
+.exp button {
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 5px 5px;
+    font-family: var(--font-mont);
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background-color: #0b011d;
+    border: solid #404c5d 1px;
+}
+ 
+.exp button:hover {
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.exp button:active {
+    -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+  }
 
 @media screen and (max-width: 830px) {
     .container{

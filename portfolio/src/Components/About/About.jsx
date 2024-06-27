@@ -64,9 +64,9 @@ const About = () => {
                             <h4>
                                 Looking For Intership Oppurtunity
                             </h4>
-                            <h5>Check Out My CV</h5>
+                            <h5>Check Out My Resume</h5>
                             <button>
-                              <a href="https://drive.google.com/file/d/1XhEA70eXfg7kevLCDWdX8P4esPS_30N1/view?usp=sharing">Download Now</a> 
+                              <a href="https://drive.google.com/file/d/1LpheUUh-U1mHsEEH02ueVTIqjq5phDI8/view?usp=sharing" target='_blank'>Download Now</a> 
                             </button>
                               </li>
                               </ul>

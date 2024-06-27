@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className={styles.right}>
             <ul>
-                <li><a href="mailto:jayasaidodla@gmail.com">Email</a></li>
+                <li><a href="mailto:jayasaidodla@gmail.com" target='_blank'>Email</a></li>
                 <li> <a href="https://www.linkedin.com/in/jaydodla" target='_blank'>LinkedIn</a> </li>
                 <li> <a href="https://github.com/JayD2003" target='_blank'>Github</a></li>
                 <li><a href="https://www.instagram.com/_mr__ingenious_/" target='_blank'>Instagram</a></li>
