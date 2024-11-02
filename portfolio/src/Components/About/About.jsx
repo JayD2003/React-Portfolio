@@ -51,7 +51,7 @@ const About = () => {
                 <img className={styles.aboutImg} src={getImageUrl("About/dp.jpg")} alt=""/>
               <div className={styles.aboutDesc} ref={imgref}>
                   <h3>Hey 👋, I'm Jayasai.</h3>
-                  <p>I'm a passionate student currently in my third year pursuing a degree in Computer Science and Engineering.
+                  <p>I'm a passionate student currently in my final year pursuing a degree in Computer Science and Engineering.
                       With a passion for software development and innovation, I thrive on crafting elegant solutions to complex problems.</p>
                       <Tabs className="Tabs">
                         <TabList className={styles.aboutItems}>
